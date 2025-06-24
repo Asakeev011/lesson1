@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+    height: 950px;
+    
+}
+.Janiya{
+    width: 250px;
+    height: 400px;
+    border: 3px solid blueviolet;
+    background-image: url(https://media.tenor.com/Yg9cr-N09a4AAAAM/music.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    transition: 2s;
+    box-shadow: 0px 0px 15px 15px red;
+    margin-top: 250px;
+    margin-left: 400px;
+    
+    
+}
+.Janiya:hover{
+    width: 500px;
+    height: 500px;
+    transition: 300ms;
+    box-shadow: 0px 0px 15px 10px rgb(24, 24, 181);
+    transform: rotate(360deg);
+}
+
+
+
